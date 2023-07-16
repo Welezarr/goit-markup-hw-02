@@ -55,7 +55,7 @@ body {
   text-decoration: none;
 }
 .header-address-item.list {
-  color: #434455;
+  color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -66,17 +66,16 @@ body {
 .header-address.list {
   font-style: normal;
 }
-.header-item-mail.link,
-.header-item-tel.link{
+.header-item-contacts.link,
+.header-item-contacts.link{
     text-decoration: none;
 }
 .header-menu-link:hover,
 .header-menu-link:focus,
-.header-item-mail.link:hover,
-.header-item-mail.link:focus,
-.header-item-tel.link:hover,
-.header-item-tel.link:focus{
-  color: var(--color-ocean);
+.header-item-contacts.link:hover,
+.header-item-contacts.link:focus
+{
+  color: var(--ocean, #404BBF);
 }
 .footer {
   background: var(--navyblue, #2e2f42);
@@ -162,6 +161,25 @@ body {
 .team{
   background: var(--cloud, #F4F4FD);
 }
-.mark{
+.mark,
+.tom,
+.camila,
+.daniel{
   background: var(--white, #FFF);
+}
+.sec-btn{
+  color:var(--color-iris);
+  background-color: #F4F4FD;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.sec-btn:hover,
+.sec-btn:focus{
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
