@@ -183,3 +183,8 @@ body {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
+.sec-list-one.list,
+.sec-list-two.list,
+.sec-list-three.list{
+  list-style: none;
+}
