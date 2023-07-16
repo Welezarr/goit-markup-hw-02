@@ -52,8 +52,8 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500
 }
-.header-address-item {
-  color: var(--slate, #434455);
+.header-address-item.list {
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -64,8 +64,15 @@ body {
 .header-address.list {
   font-style: normal;
 }
+.header-item-mail.link{
+    text-decoration: none
+}
 .header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:focus,
+.header-item-mail.link:hover,
+.header-item-mail.link:focus,
+.header-item-tel.link:hover,
+.header-item-tel.link:focus{
   color: var(--color-ocean);
 }
 .footer {
@@ -88,4 +95,47 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+/** ======Section======  */
+
+.hero{
+    background-color: #2e2f42;
+}
+.hero-title{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    line-height: 1.07; /* 107.143% */
+    letter-spacing: 0.02em;
+}
+.hero-btn{
+    background: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
+}
+.advantages-header{
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+}
+.advantages-text{
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
 }
