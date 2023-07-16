@@ -19,7 +19,7 @@ body {
 }
 /** =====Header==== */
 .header-logo,
-.footer-logo {
+.footer-logo.link {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -29,7 +29,11 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.span-web {
+
+.header-menu-list.list{
+    list-style: none
+}
+.span-web.link {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -37,14 +41,16 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none
 }
-.header-menu-link .link {
+.header-menu-link.link {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  font-weight: 500
 }
 .header-address-item {
   color: var(--slate, #434455);
