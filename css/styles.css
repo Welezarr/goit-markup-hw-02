@@ -112,11 +112,11 @@ body {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
-    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus{
     background-color: #404BBF;
+    cursor: pointer;
 }
 .advantages-header,
 .team-name{
