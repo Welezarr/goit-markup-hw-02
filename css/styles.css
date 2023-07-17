@@ -62,9 +62,9 @@ body {
   text-decoration: none;
   text-decoration: none;
 }
-/* .header-address.list {
+.header-address.list {
   font-style: normal;
-} */
+}
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-item-contacts.link:hover,
@@ -112,6 +112,7 @@ body {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus{
