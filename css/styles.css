@@ -113,6 +113,9 @@ body {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
 }
+.sect-list-btn.list{
+  list-style: none;
+}
 .hero-btn:hover,
 .hero-btn:focus{
     background-color: #404BBF;
@@ -126,6 +129,10 @@ body {
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
+}
+.advantages-list.list{
+  font-style: normal;
+  list-style: none;
 }
 .advantages-text,
 .teame-text{
